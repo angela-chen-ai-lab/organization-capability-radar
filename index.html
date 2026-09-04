@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Organization Capability Radar interactive demo" />
+    <title>Organization Capability Radar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">◌</span><span>Organization Capability Radar</span><span class="demo-label">DEMO v0.1</span></div>
+      <div class="controls">
+        <span id="progressLabel" class="progress-label">0 / 36 signals observed</span>
+        <button id="resetButton" class="button button-secondary">Reset</button>
+        <button id="stepButton" class="button button-secondary">Step</button>
+        <button id="playButton" class="button button-primary">▶ Play scenario</button>
+      </div>
+    </header>
+
+    <main class="app-shell">
+      <aside class="scenario-nav">
+        <p class="eyebrow">DEMO SCENARIO</p>
+        <h1>IP 跨品类开发</h1>
+        <p class="nav-summary">“星际小队”要在同一季度推出互动电动玩具、毛绒、公仔与卡牌。</p>
+        <div class="scenario-item active"><span class="dot"></span><span>两周协作现场</span><small>35 messages</small></div>
+        <div class="nav-note">
+          <strong>注意</strong>
+          <p>所有人物、群聊与数字均为虚构。系统只根据已播放内容形成判断。</p>
+        </div>
+        <div class="legend">
+          <p class="eyebrow">PRIORITY</p>
+          <span><i class="legend-dot high"></i> High</span>
+          <span><i class="legend-dot medium"></i> Medium</span>
+          <span><i class="legend-dot low"></i> Observing</span>
+        </div>
+      </aside>
+
+      <section class="conversation-panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">BUSINESS FIELD</p>
+            <h2>团队协作消息</h2>
+          </div>
+          <span class="live-status"><i></i><span id="liveLabel">Waiting for signals</span></span>
+        </div>
+        <div id="conversation" class="conversation" aria-live="polite"></div>
+      </section>
+
+      <section class="radar-panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">AGENT VIEW</p>
+            <h2>Capability Radar</h2>
+          </div>
+          <span id="radarState" class="state-pill">Observing</span>
+        </div>
+
+        <section class="signals-section">
+          <div class="section-title"><h3>Signals</h3><span id="signalCount">0</span></div>
+          <div id="signals" class="signals-empty">播放对话后，Agent 会提取业务信号。</div>
+        </section>
+
+        <section class="gaps-section">
+          <div class="section-title"><h3>Capability gaps</h3><span id="gapCount">0</span></div>
+          <div id="gaps" class="gaps-empty">尚未形成能力缺口。</div>
+        </section>
+
+        <section class="actions-section">
+          <div class="section-title"><h3>Recommended action</h3><span class="agent-tag">AGENT DRAFT</span></div>
+          <div id="actions" class="actions-empty">需要更多跨群证据后才会生成建议。</div>
+        </section>
+      </section>
+    </main>
+
+    <aside id="detailDrawer" class="detail-drawer" aria-live="polite">
+      <div class="drawer-header">
+        <div><p class="eyebrow">AGENT EXPLANATION</p><h2 id="drawerTitle">Capability detail</h2></div>
+        <button id="closeDrawer" class="close-button" aria-label="关闭">×</button>
+      </div>
+      <div id="drawerBody" class="drawer-body"></div>
+    </aside>
+    <div id="scrim" class="scrim"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

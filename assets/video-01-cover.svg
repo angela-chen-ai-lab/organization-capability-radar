@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440" role="img" aria-labelledby="title desc">
+  <title id="title">我拿自己做了一个 AI 实验</title>
+  <desc id="desc">从零散协作信号到组织能力图谱的系统示意封面</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F9F4EA"/>
+      <stop offset="1" stop-color="#EEE3CF"/>
+    </linearGradient>
+    <pattern id="grain" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="8" r="1" fill="#4A4034" opacity=".035"/>
+      <circle cx="26" cy="20" r="1.2" fill="#4A4034" opacity=".025"/>
+      <path d="M0 31h12" stroke="#4A4034" stroke-width="1" opacity=".018"/>
+    </pattern>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#4A4034" flood-opacity=".14"/>
+    </filter>
+    <style>
+      .sans { font-family: 'Microsoft YaHei','Noto Sans CJK SC','PingFang SC',sans-serif; }
+      .serif { font-family: 'Songti SC','STSong','Noto Serif CJK SC',serif; }
+    </style>
+  </defs>
+
+  <rect width="1080" height="1440" fill="url(#paper)"/>
+  <rect width="1080" height="1440" fill="url(#grain)"/>
+  <path d="M72 84H1008" stroke="#4A4034" stroke-width="2" opacity=".28"/>
+  <text x="72" y="137" class="sans" font-size="26" font-weight="600" letter-spacing="3" fill="#7A8060">AI PROBLEM RESEARCH LAB · 01</text>
+
+  <!-- Title safe area: 72px left/right, 84px top -->
+  <text x="72" y="293" class="serif" font-size="78" font-weight="700" letter-spacing="-2" fill="#4A4034">我拿自己</text>
+  <text x="72" y="393" class="serif" font-size="78" font-weight="700" letter-spacing="-2" fill="#4A4034">做了一个 <tspan fill="#9D453C">AI</tspan> 实验</text>
+  <path d="M74 440H356" stroke="#D7A63D" stroke-width="10" stroke-linecap="round"/>
+  <text x="72" y="495" class="sans" font-size="31" font-weight="500" fill="#62594D">从一个招聘难题开始</text>
+  <text x="72" y="543" class="sans" font-size="22" fill="#7C7163">不是等人提需求，而是从真实协作里看见能力缺口</text>
+
+  <!-- A quiet divider and the signal-to-map system image -->
+  <path d="M72 612H1008" stroke="#4A4034" stroke-width="2" opacity=".16"/>
+  <text x="72" y="670" class="sans" font-size="20" font-weight="700" letter-spacing="2" fill="#7A8060">COLLABORATION SIGNALS  →  CAPABILITY MAP</text>
+
+  <!-- scattered collaboration signals -->
+  <g fill="none" stroke="#4A4034" stroke-linecap="round" stroke-linejoin="round">
+    <g opacity=".9">
+      <rect x="91" y="763" width="228" height="87" rx="17" fill="#FFF9EF" stroke-width="2"/>
+      <path d="M121 795h117M121 820h73" stroke-width="7" opacity=".34"/>
+      <circle cx="276" cy="807" r="12" fill="#D97A45" stroke="none"/>
+    </g>
+    <g opacity=".8">
+      <rect x="150" y="917" width="207" height="80" rx="17" fill="#FFF9EF" stroke-width="2"/>
+      <path d="M181 947h98M181 971h128" stroke-width="7" opacity=".30"/>
+      <circle cx="313" cy="956" r="11" fill="#D7A63D" stroke="none"/>
+    </g>
+    <g opacity=".72">
+      <rect x="82" y="1061" width="257" height="83" rx="17" fill="#FFF9EF" stroke-width="2"/>
+      <path d="M113 1091h143M113 1116h86" stroke-width="7" opacity=".26"/>
+      <circle cx="295" cy="1103" r="11" fill="#9D453C" stroke="none"/>
+    </g>
+    <!-- incoming paths -->
+    <path d="M320 806 C396 806 390 868 461 891" stroke="#D97A45" stroke-width="5" opacity=".7"/>
+    <path d="M358 957 C409 957 405 925 461 905" stroke="#D7A63D" stroke-width="5" opacity=".7"/>
+    <path d="M340 1102 C420 1102 405 956 461 918" stroke="#9D453C" stroke-width="5" opacity=".7"/>
+    <circle cx="475" cy="904" r="28" fill="#D7A63D" stroke="#4A4034" stroke-width="3"/>
+    <circle cx="475" cy="904" r="8" fill="#4A4034" stroke="none"/>
+  </g>
+
+  <!-- capability architecture: the resolved system -->
+  <g filter="url(#softShadow)">
+    <rect x="540" y="739" width="409" height="440" rx="32" fill="#FDF8EE" stroke="#4A4034" stroke-width="3"/>
+  </g>
+  <text x="582" y="796" class="sans" font-size="21" font-weight="700" letter-spacing="2" fill="#7A8060">ORGANIZATION CAPABILITY</text>
+  <text x="582" y="839" class="serif" font-size="34" font-weight="700" fill="#4A4034">把缺口变成方案</text>
+  <g fill="none" stroke="#4A4034" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M646 947H753M791 947H858" stroke="#7A8060" stroke-width="6"/>
+    <path d="M700 976V1046M824 976V1046" stroke="#7A8060" stroke-width="6"/>
+    <path d="M700 1082C700 1125 804 1138 824 1082" stroke="#D7A63D" stroke-width="6"/>
+    <path d="M874 1050C920 1041 923 971 879 953" stroke="#D97A45" stroke-width="5"/>
+    <path d="M878 948l17 10-10 17" stroke="#D97A45" stroke-width="5"/>
+    <rect x="601" y="912" width="92" height="65" rx="14" fill="#AEB59A"/>
+    <rect x="754" y="912" width="76" height="65" rx="14" fill="#D7A63D"/>
+    <rect x="851" y="912" width="57" height="65" rx="14" fill="#D97A45"/>
+    <rect x="654" y="1047" width="92" height="65" rx="14" fill="#7A8060"/>
+    <rect x="778" y="1047" width="92" height="65" rx="14" fill="#9D453C"/>
+  </g>
+  <g class="sans" font-size="18" font-weight="700" fill="#4A4034">
+    <text x="609" y="952">识别</text><text x="771" y="952">拆分</text><text x="861" y="952">调用</text>
+    <text x="665" y="1087" fill="#FDF8EE">培养</text><text x="789" y="1087" fill="#FDF8EE">验证</text>
+  </g>
+
+  <!-- lower label -->
+  <g transform="translate(72 1261)">
+    <rect width="360" height="72" rx="36" fill="#4A4034"/>
+    <circle cx="36" cy="36" r="11" fill="#D7A63D"/>
+    <text x="62" y="44" class="sans" font-size="23" font-weight="600" fill="#F6F0E4">组织能力洞察系统 · Demo</text>
+  </g>
+  <path d="M72 1361H1008" stroke="#4A4034" stroke-width="2" opacity=".28"/>
+  <text x="72" y="1404" class="sans" font-size="20" letter-spacing="1" fill="#7C7163">从问题出发，用 AI 亲自做一次，再回到真实世界验证。</text>
+</svg>
