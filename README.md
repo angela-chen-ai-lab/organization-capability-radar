@@ -14,7 +14,7 @@ This is a source-available co-creation project, released under the [PolyForm Non
 
 `业务信号 → 能力缺口 → 跨群证据 → 行动组合 → 招聘能力画像草案`
 
-如需在本机、使用已授权的匿名化记录进行 Pilot 0，可打开 [本地能力洞察分析器](pilot.html)。它在浏览器内读取 JSON 或 Markdown 文件，不上传原始记录。
+如需在本机、使用已授权的匿名化记录进行 Pilot 0，可打开 [本地能力洞察分析器](local-analyzer/)。它在浏览器内读取 JSON 或 Markdown 文件；只有在用户确认后，才会把脱敏副本发送给用户选择的模型服务。
 
 ## 这个 Demo 想说明什么
 
