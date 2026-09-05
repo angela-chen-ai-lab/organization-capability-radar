@@ -2,6 +2,10 @@
 
 欢迎产品、HR、组织发展、设计与工程贡献。这个项目的首要原则是：**能力判断可解释、数据使用克制、建议由人负责。**
 
+## Contribution license
+
+By submitting a contribution, you confirm that you have the right to contribute it and agree that it may be published under this repository's [PolyForm Noncommercial License 1.0.0](LICENSE). If a future commercial offering materially uses your contribution, it requires a separate written agreement before that contribution is included.
+
 ## 开始方式
 
 1. Fork 仓库并从 `main` 建分支，例如 `feat/new-scenario`。

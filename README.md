@@ -1,5 +1,9 @@
 # Organization Capability Radar
 
+## License and commercial use
+
+This is a source-available co-creation project, released under the [PolyForm Noncommercial License 1.0.0](LICENSE). Noncommercial research, learning, experimentation, and contributions are welcome. Commercial use requires a separate written license; see [Commercial licensing](COMMERCIAL_LICENSE.md).
+
 > 组织不必等待一张“我要招人”的表单；它可以从真实业务协作中识别能力缺口，再讨论最合适的补足方式。
 
 **Organization Capability Radar** 是一个公开的互动 Web Demo，用来探索一个问题：当招聘难并不只是“缺一个人”时，组织如何从日常协作信号中看见更深层的能力与协同缺口？
