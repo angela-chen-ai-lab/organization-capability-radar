@@ -1,0 +1,9 @@
+# Real pilot records and derived local results must never be committed.
+pilot-data/
+pilot-output/
+*.wechat-export.json
+*.chat-export.json
+*.chat-history.md
+.env
+.env.*
+!.env.example
