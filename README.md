@@ -16,6 +16,8 @@ This is a source-available co-creation project, released under the [PolyForm Non
 
 如需在本机、使用已授权的匿名化记录进行 Pilot 0，可打开 [本地能力洞察分析器](local-analyzer/)。它在浏览器内读取 JSON 或 Markdown 文件；只有在用户确认后，才会把脱敏副本发送给用户选择的模型服务。
 
+如需了解第三种产品形态，可查看 [飞书插件骨架](feishu-plugin/)。它采用“用户主动触发、最小消息范围、脱敏后再分析、结果由人确认”的设计；目前不连接任何真实飞书群或外部模型。
+
 ## 这个 Demo 想说明什么
 
 第一版模拟一家 IP 驱动、多品类开发的互动产品公司。它展示两类不同但彼此相关的缺口：
