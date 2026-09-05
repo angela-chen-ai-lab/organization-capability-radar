@@ -1,0 +1,9 @@
+{
+  "name": "organization-capability-radar-feishu-plugin",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Consent-first Feishu adapter skeleton for Organization Capability Radar.",
+  "type": "module",
+  "scripts": { "start": "node src/server.js", "check": "node --check src/server.js && node --check src/adapter.js && node --check src/card.js && node --check src/redaction.js && node --check src/core.js && node --check src/pipeline.js" },
+  "engines": { "node": ">=20" }
+}
